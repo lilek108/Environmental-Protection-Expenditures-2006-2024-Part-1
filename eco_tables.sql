@@ -1,3 +1,4 @@
+--- query for tables overview
 /*
 SELECT
 	ee.idhod,
