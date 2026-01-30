@@ -48,9 +48,11 @@ Dimensional tables overview:
 
 After uploading mentioned dataset into pgAdmin data were processed using **PostgreSQL** ("eco_tables.sql") resulting in six **csv files** (folder "clean data").
 
+**!Important clarification: real expenses are bigger than the shown values — the information about the amount of expenses is not available for all transactions, but only for "public-available" ("verejny") (see column "duvernost" in eco_expenses.csv)!**
+
 # Executive Summary
 
-Environmental protection expenditures grew from **CZK 439 million** in 2006 to **CZK 1.6 billion** in 2024, indicating a **substantial increase** in investments and prioritization of environmental initiatives. **Waste Management and Wastewater Management dominate funding**, reflecting a current focus on managing and treating waste over other environmental programs. Most spending is **operational** and heavily supported by **non-financial enterprises**, highlighting reliance on private-sector contributions. Some programs, particularly **Research and Development and Noise Reduction**, show **high volatility**, suggesting challenges in maintaining consistent long-term funding, especially in the field of **Radiation Protection with its extreme spikes in funding changes**. Regionally, **Prague** receives the **largest share**, while **Karlovy Vary Region** has the **least funding**, but **many expenditures are unassigned**, signaling limitations in assessing true regional allocation.
+Based on public-available information, environmental protection expenditures grew from **CZK 439 million** in 2006 to **CZK 1.6 billion** in 2024, indicating a **substantial increase** in investments and prioritization of environmental initiatives. **Waste Management and Wastewater Management dominate funding**, reflecting a current focus on managing and treating waste over other environmental programs. Most spending is **operational** and heavily supported by **non-financial enterprises**, highlighting reliance on private-sector contributions. Some programs, particularly **Research and Development and Noise Reduction**, show **high volatility**, suggesting challenges in maintaining consistent long-term funding, especially in the field of **Radiation Protection with its extreme spikes in funding changes**. Regionally, **Prague** receives the **largest share**, while **Karlovy Vary Region** has the **least funding**, but **many expenditures are unassigned**, signaling limitations in assessing true regional allocation.
 
 # Insights 
 
@@ -131,6 +133,6 @@ However, a substantial proportion of expenditures was not allocated to a specifi
 
 # Challenges:
 
-The main challenge in processing the dataset was the lack of complete metadata for many transactions, as a large portion of records were missing at least one key attribute, such as regional, programmatic, or other relevant characteristics. As a result, these attributes were analyzed separately rather than being combined in a single unified analysis.
-   
+ * The main challenge in processing the dataset was the lack of complete metadata for many transactions, as a large portion of records were missing at least one key attribute, such as regional, programmatic, or other relevant characteristics. As a result, these attributes were analyzed separately rather than being combined in a single unified analysis.
+ * Part of transactions did not have public-available information about the value of expenses (~ 15 % of all dataset), so the analysis is based only on the public-available information. 
 
