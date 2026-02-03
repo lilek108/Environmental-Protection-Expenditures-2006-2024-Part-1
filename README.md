@@ -58,7 +58,7 @@ Based on public-available information about the amount of expenses (~ 84 % of al
 
 **1. Expenditures Growth**
 
-*Environmental protection spending has expanded substantially over the observed period, indicating a sustained strengthening of financial commitment to the sector.*
+*"Environmental protection spending has expanded substantially over the observed period, indicating a sustained strengthening of financial commitment to the sector."*
 
 Annual expenditures increased from **CZK 439 million** in 2006 to **CZK 1.6 billion** in 2024 — a cumulative rise of approximately **368%**, reaching a total of **CZK 18 billion** over the period.
 
@@ -86,7 +86,7 @@ The persistent dominance of non-investment (operational) expenditures suggests t
 
 **2. Patterns Across Environmental Programs**
 
-*Environmental funding is strongly concentrated in waste-related programs, while several smaller programs exhibit high apparent volatility.*
+*"Environmental funding is strongly concentrated in waste-related programs, while several smaller programs exhibit high apparent volatility."*
 
 The **most highly funded** program overall was **Waste Management**, with total expenditures amounting to **CZK 5.2 billion**. This figure is more than double that of the **second most funded** program, **Wastewater Management**, which received **CZK 2.0 billion**. **Air and Climate Protection** ranked **third**, with total expenditures of **CZK 0.9 billion**.
 
@@ -116,7 +116,7 @@ Further examination revealed that this apparent anomaly was driven by very low t
 
 **3. Regional Expenditures Disproportion**
 
-*Although Prague appears to dominate environmental funding in absolute terms, the presence of a substantial volume of non-regionally allocated expenditures limits the reliability of direct regional comparisons.*
+*"Although Prague appears to dominate environmental funding in absolute terms, the presence of a substantial volume of non-regionally allocated expenditures limits the reliability of direct regional comparisons."*
 
 As illustrated in the map below (white indicating the lowest funding and dark green the highest), **Prague (Hlavní město Praha)** received the **highest** level of funding, whereas  **Karlovy Vary Region (Karlovarský kraj)** recorded the **lowest** environmental expenditures. Total spending in Prague amounted to approximately **CZK 2 billion**, compared to **CZK 147.5 million** in the Karlovy Vary Region.
 
