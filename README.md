@@ -4,7 +4,7 @@
 
 Environmental protection expenditures reflect government priorities in addressing key ecological challenges such as air quality, water management, waste treatment, and climate-related initiatives.
 
-This project analyzes official data from the Czech Statistical Office (https://csu.gov.cz/domov) to examine how environmental funds are allocated across regions, programs, and expenditure types over time. Using SQL-based data transformation and an interactive dashboard, the analysis explores spending structure, regional distribution, and year-over-year dynamics. The main focus of this, first, part is an overview of public available expenses, while the second part has as its goal deepening the analysis of this dataset. 
+This project analyzes official data from the Czech Statistical Office (https://csu.gov.cz/domov) to examine how environmental funds are allocated across regions, programs, and expenditure types over time. Using SQL-based data transformation and an interactive dashboard, the analysis explores spending structure, regional distribution, and year-over-year dynamics. The main focus of this, first, part is an overview of public available expenses, while the [second part](https://github.com/lilek108/Environmental-Protection-Expenditures-2006-2024-Part-2/tree/main) has as its goal deepening the analysis of this dataset. 
 
 Key analysis questions:
 
@@ -48,11 +48,11 @@ Dimensional tables overview:
 
 After uploading mentioned dataset into pgAdmin data were extracted in appropriate aggragations using **PostgreSQL** ("eco_tables.sql") resulting in six **csv files** (folder "clean data").
 
-**!IMPORTANT: The information about the amount of expenses is not available for all transactions, but only for "public-available" ("verejny") transactions (see column "duvernost" in eco_expenses.csv): this problem is covered in details in Part 2 (EDA)!**
+**!IMPORTANT: The information about the amount of expenses is not available for all transactions, but only for "public-available" ("verejny") transactions (see column "duvernost" in eco_expenses.csv): this problem is covered in details in [Part 2 (EDA)](https://github.com/lilek108/Environmental-Protection-Expenditures-2006-2024-Part-2/tree/main)!**
 
 # Executive Summary
 
-Based on public-available information about the amount of expenses (~ 84 % of all dataset), environmental protection expenditures grew from **CZK 439 million** in 2006 to **CZK 1.6 billion** in 2024, indicating a **substantial increase** in investments and prioritization of environmental initiatives. **Waste Management and Wastewater Management dominate funding**, reflecting a current focus on managing and treating waste over other environmental programs. Most spending is **operational** and heavily supported by **non-financial enterprises**, highlighting reliance on private-sector contributions. Some programs, particularly **Research and Development and Noise Reduction**, show **high volatility**, suggesting challenges in maintaining consistent long-term funding, especially in the field of **Radiation Protection with its extreme spikes in funding changes**. Regionally, **Prague** receives the **largest share**, while **Karlovy Vary Region** has the **least funding**, but **many expenditures are unassigned**, signaling limitations in assessing true regional allocation.
+Based on public-available information about the amount of expenses (~ 84 % of all dataset), environmental protection expenditures grew from **CZK 439 million** in 2006 to **CZK 1.6 billion** in 2024, indicating a **substantial increase** in investments and prioritization of environmental initiatives. **Waste Management and Wastewater Management dominate funding**, reflecting a current focus on managing and treating waste over other environmental programs. The biggest part of spending is **operational** and mostly supported by **non-financial enterprises**, highlighting reliance on private-sector contributions. Some programs, particularly **Research and Development and Noise Reduction**, show **high volatility**, suggesting challenges in maintaining consistent long-term funding or the lack of data. Regionally, **Prague** receives the **largest share**, while **Karlovy Vary Region** has the **least funding**, but **many expenditures are unassigned**, signaling limitations in assessing true regional allocation.
 
 # Insights 
 
@@ -104,7 +104,7 @@ The **most pronounced fluctuations** in expenditure over the observed years were
 <br>
 
 An exception was **Radiation Protection**, which exhibited the **most extreme volatility** in expenditures among all programs, reaching an **extraordinary 29192%** increase in 2010.
-Further examination revealed that this apparent anomaly was driven by very low total expenses that year: official expenditures in 2009 amounted to only **CZK 4,932**, while in 2010 spending increased to **CZK 1,444,683**. Consequently, the exceptionally high growth rates compared to the previous year reflect a lack of spending in a particular year, rather than a structurally significant increase in financing.
+Further examination revealed that this apparent anomaly was driven by very low total expenses that year: official expenditures in 2009 amounted to only **CZK 4,932**, while in 2010 spending increased to **CZK 1,444,683**. Consequently, the exceptionally high growth rates compared to the previous year reflect a lack of spending in a particular year, rather than a structurally significant increase in financing. (**This case will be  comprehensively covered in Part 2 of the project**)
 
 <img width="597" height="260" alt="image" src="https://github.com/user-attachments/assets/b73f8815-9a95-49c0-bce0-46b63644c055" />
 
